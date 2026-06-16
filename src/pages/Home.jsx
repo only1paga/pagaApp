@@ -47,9 +47,9 @@ const Home = () => {
         <div className="logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="title">Log In</div>
+        <div className="title">Welcome Back</div>
         <div className="subText">
-          Glad you're back, let's get back to business
+          Log in to your account and pick up right where you left off
         </div>
       </div>
       <div className="loginWrapper">
