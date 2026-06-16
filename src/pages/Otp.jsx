@@ -64,9 +64,12 @@ const Otp = () => {
       <div className="container">
         <div className="contentSec">
           <div className="contentSec">
-            <div className="title">Verify Device</div>
+            <div className="title">Check Your Messages</div>
 
-            <div className="text">Please enter below to verify your device</div>
+            <div className="text">
+              We sent a one-time code to your registered phone number or email.
+              Enter the 5-digit code below to verify it's you.
+            </div>
           </div>
         </div>
         <div className="formSec">
