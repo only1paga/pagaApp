@@ -15,7 +15,6 @@ const schema = yup.object().shape({
   password: yup.string().required("Password is required"),
 });
 
-
 const Home = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
