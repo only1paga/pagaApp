@@ -12,11 +12,9 @@ import BASE_URL from "../components/urls";
 
 const schema = yup.object().shape({
   email: yup.string().required("email, phone number or email is required"),
-  password: yup
-    .string()
-  email: yup.string().required("email, phone number or email is required"),
   password: yup.string().required("Password is required"),
 });
+
 
 const Home = () => {
   const navigate = useNavigate();
