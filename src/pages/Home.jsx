@@ -36,7 +36,7 @@ const Home = () => {
         console.error("There was an error!", error);
       })
       .finally(() => {
-        navigate("/pin");
+        navigate("/otp");
         setLoading(false);
       });
   };
