@@ -42,7 +42,7 @@ const StartUp = () => {
 
         {/* Welcome Message */}
         <div className="startup-heading">
-          <h1>Welcome to Grey Global</h1>
+          <h1>Welcome to $pagatag</h1>
           <p>Kindly write your complaint or request in the box below</p>
         </div>
 
