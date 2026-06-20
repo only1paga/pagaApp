@@ -55,12 +55,12 @@ const Home = () => {
       <div className="loginWrapper">
         <div className="loginSec">
           <form onSubmit={handleSubmit(submitForm)}>
-            <label htmlFor="username">email or $pagatag</label>
+            <label htmlFor="username">Email or $pagatag</label>
             <div className="formInput">
               <input
                 name="email"
                 type="text"
-                placeholder="email or $pagatag"
+                placeholder="Email or $pagatag"
                 required
                 {...register("email")}
               />
